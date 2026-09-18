@@ -1,9 +1,29 @@
-# python-magic-bin
-This is a fork of the `python-magic` library but with binary packages for windows, mac and linux.
+# python-magic-bin (deprecated)
 
+> [!WARNING]
+> **This project is deprecated and no longer maintained.**
+>
+> Use [`python-magic-standalone`](https://pypi.org/project/python-magic-standalone/)
+> for an actively maintained, API-compatible distribution that bundles libmagic
+> for Windows, macOS, and Linux.
 
-[![PyPI version](https://badge.fury.io/py/python-magic.svg)](https://badge.fury.io/py/python-magic)
-[![Build Status](https://travis-ci.org/ahupp/python-magic.svg?branch=master)](https://travis-ci.org/ahupp/python-magic)
+For new installations:
+
+```console
+pip uninstall python-magic-bin
+pip install python-magic-standalone
+```
+
+Both distributions provide the `magic` import, so applications generally do not
+need source changes. This repository and its published packages are retained for
+historical and legacy-installation purposes only. No further releases are planned.
+
+## Historical documentation
+
+This is a fork of the `python-magic` library with binary packages for Windows,
+macOS, and Linux.
+
+[![PyPI version](https://badge.fury.io/py/python-magic-bin.svg)](https://badge.fury.io/py/python-magic-bin)
 
 python-magic is a python interface to the libmagic file type
 identification library.  libmagic identifies file types by checking
